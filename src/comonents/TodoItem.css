@@ -1,0 +1,24 @@
+.TodoItem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.TodoItem img {
+    padding: 5px 5px;
+}
+
+.TodoItem p{
+    margin-left: 10px;
+    line-height: 10px;
+    
+}
+
+.TodoItem-complete {
+    text-decoration: line-through;
+    opacity: .3; 
+}
